@@ -1,0 +1,236 @@
+@import url(/assets/stylesheets/_bootstrap.scss);
+@font-face {
+  font-family: "Lato Black";
+  src: url("/fuentes/Lato-Black.ttf");
+  font-family: "Lato Light";
+  src: url("/fuentes/Lato-Light.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  color: #333333;
+  text-align: center;
+}
+
+body {
+  font-size: 2em;
+}
+body .container {
+  font-family: "Lato Black", serif !important;
+}
+body .logo-radiosack {
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+}
+body .log-img {
+  width: 250px;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+body .img-res {
+  width: 300px;
+  max-width: 81%;
+  padding-top: 20%;
+  height: auto;
+  margin: auto;
+  display: block;
+  margin-top: -32px;
+}
+body .image-re {
+  margin-top: 10px;
+  max-width: 73% !important;
+}
+
+.nav .nav-pills .ult {
+  border-right: none;
+}
+
+.card-title {
+  font-size: 0.8em;
+  font-family: "Lato Light", sans-serif;
+  font-weight: bold;
+  box-shadow: 0 0 0 8px #009999;
+  outline: dotted 2px #ffff;
+  border: 5px solid #009999;
+  border-radius: 4px;
+  width: auto;
+  margin: 10px;
+}
+.card-title .card-description {
+  border-top-style: dotted;
+  border-color: #009999;
+}
+.card-title .colum {
+  margin-top: 10px;
+  color: #333333;
+  text-decoration: none;
+}
+.card-title a:hover {
+  font-family: "Lato Black", sans-serif;
+  color: #9a2d9b;
+  text-decoration: none;
+}
+
+.card-titles {
+  font-size: 0.5em;
+  font-family: "Lato Light", sans-serif;
+  font-weight: bold;
+  margin: 14px;
+  box-shadow: 0 0 0 5px #9a2d9b;
+  outline: solid 2px #ffff;
+  border: 8px solid #9a2d9b;
+  border-radius: 4px;
+  align-content: flex-start;
+}
+.card-titles .column {
+  color: #333333;
+  text-decoration: none;
+}
+.card-titles a:hover {
+  font-family: "Lato Black";
+  color: #009999;
+  text-decoration: none;
+}
+
+.card-titles .card-description {
+  text-align: justify;
+}
+
+.social {
+  top: 30%;
+}
+
+.social a img {
+  border-radius: 50%;
+  background-color: #9a2d9b;
+  margin: 2px;
+  width: auto;
+  height: 40px;
+  display: inline !important;
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1400px) {
+  .nav {
+    margin: 7px;
+  }
+  .nav .link {
+    color: #333333;
+    font-family: "Lato Light", sans-serif;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    width: auto;
+    position: relative;
+    border-right: 1.5px solid #009999;
+    border-radius: 0;
+    border-right-color: #009999 none;
+  }
+  .nav a:hover {
+    font-family: "Lato Black", sans-serif;
+    font-weight: bold;
+    color: #009999;
+  }
+
+  .row {
+    margin-left: -16px;
+    margin-right: 6px;
+  }
+
+  .card-backg {
+    margin-top: 10px;
+    margin: 2px 10px px 0px;
+    width: 100% x;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card-backg .car {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .floads {
+    font-size: 0.4em;
+    font-family: "Lato Light", sans-serif;
+    font-weight: bold;
+    position: fixed;
+    width: 20px;
+    right: 2.4%;
+    z-index: 9999;
+  }
+  .floads .image-ret {
+    border: 15px solid #9a2d9b !important;
+    margin-top: 10%;
+    width: 160px;
+    background-color: #000;
+  }
+  .floads .columnr {
+    color: #333333;
+    text-decoration: none;
+  }
+  .floads a:hover {
+    font-family: "Lato Black";
+    color: #009999;
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+  .nav {
+    margin: 7px;
+  }
+  .nav .link {
+    color: #333333;
+    font-family: "Lato Light", sans-serif;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    width: auto;
+    position: relative;
+    border-right: 1.5px solid #009999;
+    border-radius: 0;
+    border-right-color: #009999 none;
+  }
+  .nav a:hover {
+    font-family: "Lato Black", sans-serif;
+    font-weight: bold;
+    color: #009999;
+  }
+
+  .row {
+    margin-left: -16px;
+    margin-right: 6px;
+  }
+
+  .card-backg {
+    margin-top: 10px;
+    margin: 2px 10px px 0px;
+    width: 100% x;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card-backg .car {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+}
+@media screen and (min-width: 330px) and (max-width: 768px) {
+  .nav a:hover {
+    font-family: "Lato Black", sans-serif;
+    font-weight: bold;
+    color: #009999;
+  }
+
+  .hidden-xs {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

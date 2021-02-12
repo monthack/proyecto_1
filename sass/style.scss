@@ -1,0 +1,279 @@
+@import url(/assets/stylesheets/_bootstrap.scss);
+// dispositivos (Mobile 330px, Tablet 768px, desktop 1366px y 1400px)
+// (min-width: 330px) (max-width: 768px),(min-width: 1366px), (max-width: 1400px)
+@font-face {
+    font-family: "Lato Black";
+    src: url("/fuentes/Lato-Black.ttf");
+    font-family: "Lato Light";
+    src: url("/fuentes/Lato-Light.ttf");
+}           
+$color-primario: #000;
+$color-secundario: #009999;    
+$color-terceario: #9a2d9b;
+$color-base: #ffff;
+$texto: #333333; 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    color: $texto;
+    text-align: center;
+}
+body {
+    font-size: 2em;
+    .container {
+    font-family: "Lato Black", serif !important;    
+    }
+    // Logo
+    .logo-radiosack {  
+        width: 100%;
+        padding: 10px 0px 10px 0px;    
+    }
+    .log-img {
+        width: 250px;
+        height: auto;
+        margin: auto;
+        display: block;            
+    }
+    .img-res{
+        width: 300px;
+        max-width: 81%;
+        padding-top: 20%;
+        height: auto;
+        margin: auto;
+        display: block;  
+        margin-top: -32px;                       
+    }
+    .image-re{
+        margin-top: 10px;
+        max-width: 73%!important;
+    }
+    
+}
+
+.nav .nav-pills .ult{
+    border-right: none;
+}
+
+.card-title {
+    font-size: 0.8em;
+    font-family: "Lato Light", sans-serif;
+    font-weight: bold;
+    box-shadow: 0 0 0 8px $color-secundario;
+    outline: dotted 2px $color-base;
+    border: 5px solid $color-secundario;
+    border-radius: 4px;        
+    width: auto;
+    margin: 10px;
+
+    .card-description{
+        border-top-style: dotted;
+        border-color: $color-secundario;
+         
+    }
+    
+    .colum {
+        margin-top: 10px;
+        color: $texto;
+        text-decoration:none;
+        
+        
+
+    }
+    a:hover{
+        font-family: "Lato Black", sans-serif;
+        color: $color-terceario;
+        text-decoration:none;
+        
+    }
+    
+}
+.card-titles{
+    font-size: 0.5em;
+    font-family: "Lato Light", sans-serif;
+    font-weight: bold;
+    margin: 14px;
+    box-shadow: 0 0 0 5px $color-terceario;
+    outline: solid 2px $color-base;
+    border: 8px solid $color-terceario ;
+    border-radius: 4px;  
+    align-content: flex-start;
+
+    .column {
+        color: $texto;
+        text-decoration:none;
+    }
+
+    a:hover {
+        font-family: "Lato Black";
+        color: $color-secundario;
+        text-decoration:none;
+
+    }
+            
+}    
+.card-titles .card-description{
+    text-align: justify;
+}
+
+// Links redes sociales
+.social{        
+    top: 30%;                
+}
+.social a img{    
+    border-radius: 50%;
+    background-color: $color-terceario;
+    margin: 2px;
+    width: auto;
+    height: 40px;
+    display: inline!important;
+}
+
+@media screen and (min-width:1366px) and (max-width: 1400px){
+    .nav{
+        margin: 7px;
+        .link{
+            color: $texto;
+            font-family: "Lato Light", sans-serif;
+            font-size: 1.8rem;
+            margin-top: 10px;
+            width: auto;
+            position: relative;
+            border-right: 1.5px solid $color-secundario;
+            border-radius: 0;
+            border-right-color: $color-secundario none;
+    
+        }
+        a:hover{
+            font-family: "Lato Black", sans-serif;
+            font-weight: bold;
+            color: $color-secundario;
+        }
+    }      
+    .row{
+        margin-left: -16px;
+        margin-right: 6px;
+    }
+    // productos galeria 
+    .card-backg {
+        margin-top: 10px;
+        margin: 2px 10px px 0px;
+        width: 100%x;
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:space-around;
+        .car {
+            width: 300px;
+            height: auto;
+            margin: auto;
+            display: block;
+        }
+    }    
+    
+}
+
+// Fixed
+
+@media screen and(max-width:1024px){
+//Fixed
+.floads{
+    font-size: 0.4em;
+    font-family: "Lato Light", sans-serif;
+    font-weight: bold;
+    position: fixed;        
+    width: 20px;
+    right: 2.4%;
+    z-index:9999;    
+
+    .image-ret{
+        border: 15px solid $color-terceario!important;
+        margin-top: 10%;
+        width: 160px;
+        background-color: #000;
+    }
+    .columnr{
+        color: $texto;
+        text-decoration:none;
+    }
+    a:hover {
+        font-family: "Lato Black";
+        color: $color-secundario;
+        text-decoration:none;
+
+    }
+
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1366px){
+    .nav{
+        margin: 7px;
+        .link{
+            color: $texto;
+            font-family: "Lato Light", sans-serif;
+            font-size: 1.8rem;
+            margin-top: 10px;
+            width: auto;
+            position: relative;
+            border-right: 1.5px solid $color-secundario;
+            border-radius: 0;
+            border-right-color: $color-secundario none;
+    
+        }
+        a:hover{
+            font-family: "Lato Black", sans-serif;
+            font-weight: bold;
+            color: $color-secundario;
+        }
+    }      
+    .row{
+        margin-left: -16px;
+        margin-right: 6px;
+    }
+    // productos galeria 
+    .card-backg {
+        margin-top: 10px;
+        margin: 2px 10px px 0px;
+        width: 100%x;
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:space-around;
+        .car {
+            width: 300px;
+            height: auto;
+            margin: auto;
+            display: block;
+        }
+    }    
+    
+
+}
+@media screen and (min-width: 330px) and (max-width: 768px){
+    .nav{
+        a:hover{
+            font-family: "Lato Black", sans-serif;
+            font-weight: bold;
+            color: $color-secundario;
+        }
+    }      
+    
+    
+    .hidden-xs{
+        display: none;       
+    } 
+}
+@media screen and (min-width: 330px){
+    
+    // productos galeria 
+}
+
+
+    
+
+    
+
+
+
+
